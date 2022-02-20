@@ -1,0 +1,61 @@
+.app-wrapper{
+    margin: 1rem;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 0;
+    padding: 0;
+}
+
+.select-city-wrapper{
+    width: 17%;
+    margin-bottom: 1rem;
+}
+.select-city{
+    padding: .2rem;
+    width: 100%;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.desc{
+    font-size: .8rem;
+    margin-left: .2rem;
+    margin-top: .3rem;
+}
+
+.city-weather-wrapper>div{
+    margin-bottom: 1.5rem;
+}
+
+.city-weather-wrapper{
+    font-style: 400;
+}
+
+.list-weather-title{
+    padding: .5rem;
+    margin: 1rem 0 .5rem;
+    border-bottom: 1px solid rgba(88,88,88,.5);
+    background: rgba(88,88,88,.5);
+}
+
+.list-weather{
+    margin: .3rem;
+}
+
+button{
+    background: green;
+    color: #fff;
+    padding: .5rem 1rem;
+    border: none;
+}
