@@ -1,4 +1,4 @@
-import { FetchCityWeatherAction, Weather, } from "../actions";
+import { FetchCityWeatherAction, } from "../actions";
 import { ActionTypes } from "../actions/types";
 
 export const cityWeatherReducers = (
